@@ -1,6 +1,6 @@
-from .hello import HelloCommand
+from .init import InitCommand
 
 
 command_routers = {
-    HelloCommand.command_str: HelloCommand.run
+    InitCommand.command_str: InitCommand.run
 }
