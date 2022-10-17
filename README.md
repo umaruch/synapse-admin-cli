@@ -1,2 +1,7 @@
-# synapse-admin-cli
-Matrix Synapse server administration tools
+### Description
+Synapse server administration tools
+
+### Install
+
+
+### Commands
