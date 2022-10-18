@@ -15,7 +15,7 @@ def save(server_url, user_id, access_token):
 
 
 def load():
-    if not Path(dirs.get_homedir()+"/.synapse-admin.config.json").isfile():
+    if not Path(dirs.get_homedir()+"/.synapse-admin.config.json").is_file():
         print("Config file not found. Please init synapse-admin by command: synapse-admin init")
         exit(1)
     
